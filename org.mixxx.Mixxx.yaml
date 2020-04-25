@@ -228,6 +228,8 @@ modules:
     config-opts:
       - --disable-static
       - --with-pic
+    build-commands:
+      - git submodule update
     sources:
       - type: git
         url: https://gitlab.xiph.org/xiph/icecast-libshout.git
